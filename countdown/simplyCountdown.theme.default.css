@@ -1,0 +1,13 @@
+.simply-countdown{
+    overflow:hidden;
+    display:flex;
+    font-family:'Arial',sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.simply-countdown .simply-section {
+    padding: 0 0.5rem; 
+  }

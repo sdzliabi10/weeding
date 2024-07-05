@@ -1,0 +1,510 @@
+:root {
+    --pink: #f14e95;
+    --bg: #0a0a0a;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+}
+
+body {
+    font-size: 1.2rem;
+    min-height: 4000px;
+    /* line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff; */
+}
+#awhome {
+background-size: cover;
+background-position: center;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.9);
+color: white;
+position: fixed;
+width: 100%;
+z-index: 2999;
+}
+
+h4 {
+    font-size: 4.5rem;
+    font-family: 'Sacramento';
+    color: var(--pink);
+}
+
+h2 {
+    font-family: 'Sacramento';
+    font-size: 2rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+h5 {
+    font-size: 1.50rem;
+    font-family:  Arial, sans-serif;
+}
+
+.btn {
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 3rem;
+    background-size: 300% 300%;
+    backdrop-filter: blur(1rem);
+    border-radius: 5rem;
+    transition: 0.5s;
+    animation: gradient_301 5s ease infinite;
+    border: double 4px transparent;
+    background-image: linear-gradient(#ff00b3, #ff00dd), linear-gradient(137.48deg, #ffdb3b 10%, #fe53bb 45%, #8f51ea 67%, #0044ff 87%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    margin-top: 3rem;
+}
+
+#overlayButton {
+    color: white; 
+    background-color: var(--pink);
+    text-shadow: #0a0a0a;
+}
+
+.btn-masuk {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
+
+#hero {
+    background-image: url(img/widodari.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: rgba(61, 58, 58, 0.5);
+    background-blend-mode: multiply;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    margin-top: 2rem;
+    color: var(--pink);
+}
+
+.hero h1 {
+    font-family: 'Roboto';
+    font-size: 1.8;
+    margin-top: 1rem;
+}
+
+div {
+    display: block;
+}
+
+#mempelai {
+    min-height: 100vh;
+    padding-bottom: 70px;
+    background-color: aliceblue;
+}
+
+.txtPink {
+    color: #ff00dd;
+    margin-top: 0rem;
+    font-size: 3.7rem;
+    font-family: 'Sacramento';
+}
+
+#mempelai p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+#mempelai .h8,
+.z {
+    font-size: 1.3rem;
+}
+
+#mempelai h1 {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+
+
+#mempelai .couple {
+    margin-top: 100px;
+}
+
+#mempelai .couple img {
+    width: 100%;
+}
+
+#mempelai .couple h3 {
+    font-family: 'Sacramento';
+    color: #fe53bb;
+    font-size: 3.1rem;
+}
+
+
+
+#undangan {
+    min-height: 100vh;
+    background-image: url(img/widodari.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(30, 28, 28, 0.5);
+    background-blend-mode: multiply;
+    color: white;
+    padding-bottom: 8rem;
+    padding-top: 10rem;
+}
+
+#undangan h1 {
+    font-size: 3.7rem;
+    font-family: 'Sacramento';
+    color: #fe53bb;
+}
+
+#undangan h2 {
+    font-family: 'Roboto';
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+#undangan a {
+    font-size: 0.8rem;
+}
+
+#undangan .card {
+    background-color: rgba( 255, 255, 255, 0.2) !important;
+    color: white !important;
+    border: 1px solid #999;
+}
+
+#undangan .card-header {
+    border-bottom: 1px solid #999;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+#undangan p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+#cerita {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+#cerita h1 {
+    color: var(--pink);
+    font-size: 3.7rem;
+    font-family: 'Sacramento';
+}
+
+#cerita p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.timeline {
+    list-style: none;
+    padding: 1.4rem 0;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.timeline::before {
+    content: '';
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 1px;
+    background-color: #0044ff;
+    left: 50%;
+}
+
+.timeline li {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.timeline li::before,
+.timeline li::after {
+    content: '';
+    display: table;
+}
+
+.timeline li::after {
+    clear: both;
+}
+
+.timeline li .timeline-panel {
+    width: 40%;
+    float: left;
+    border: 1px solid #ccc;
+    padding: 2rem;
+    position: relative;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.timeline li .timeline-panel::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #ccc;
+    border-right: 0 solid #ccc;
+    border-bottom: 15px solid transparent;
+    top: 80px;
+    right: -15px;
+}
+
+.timeline li .timeline-panel::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    top: 81px;
+    right: -13px;
+}
+
+.timeline li.timeline-inverted .timeline-panel {
+    float: right;
+}
+
+.timeline li.timeline-inverted .timeline-panel::before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+}
+
+.timeline li.timeline-inverted .timeline-panel::after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -13px;
+    right: auto;
+}
+
+#photo h1 {
+    color: var(--pink);
+    font-size: 3.7rem;
+    font-family: 'Sacramento';
+}
+
+#photo .img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+#photo {
+    padding: 2rem 0;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: rgba(128, 128, 128, 0.5); /* Warna abu-abu dengan opacity 0.5 */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(10px); /* Untuk dukungan browser Webkit (Safari) */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: black; /* Ubah sesuai kebutuhan Anda */
+  }
+  
+  .navbar-nav .nav-link {
+    color: black !important; /* Ubah sesuai kebutuhan Anda */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #333 !important; /* Ubah warna saat hover sesuai kebutuhan Anda */
+  }
+  
+  /* Sticky navbar */
+  .sticky-top {
+    position: sticky;
+    top: 0;
+  }
+
+  #gift {
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+}
+
+  #gift h1 {
+    color: var(--pink);
+    font-size: 3.7rem;
+    font-family: 'Sacramento';
+}
+
+#gift p,
+#gift span {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.copy-target {
+    cursor: pointer;
+  }
+  .copy-target:hover {
+    color: #007bff; /* Warna biru saat hover */
+  }
+  .copy-success {
+    color: green;
+    display: none;
+    margin-left: 10px;
+  }
+
+footer {
+    position: relative;
+    padding: 3rem;
+    background-color: var(--pink);
+    color: white;
+    overflow: hidden;
+  }
+
+  footer a {
+    color: var(--bg);
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: white;
+  }
+
+  footer li {
+    list-style: none;
+    display: inline;
+    margin: 0.5rem;
+  }
+
+  footer::before {
+    content: "";
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 200%;
+    height: 200px;
+    background: radial-gradient(circle, rgba(255,255,255,0.4) 25%, rgba(255,255,255,0) 75%);
+    animation: wave 10s linear infinite;
+    transform: translateX(-50%);
+    pointer-events: none;
+  }
+
+  @keyframes wave {
+    0% {
+      transform: translateX(-50%) translateY(0);
+    }
+    50% {
+      transform: translateX(-50%) translateY(15px);
+    }
+    100% {
+      transform: translateX(-50%) translateY(0);
+    }
+  }
+
+
+  .audio-icon-wrapper {
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 2rem;
+    cursor: pointer;
+    color: white;
+    opacity: 0.5;
+    mix-blend-mode: difference;
+    animation: muter 4s linear infinite;
+    transform-origin: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+  }
+
+  @keyframes muter {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+/* Media Query */
+
+/* laptop */
+@media (max-width: 992px) {
+    html {
+        font-size: 95%;
+    }
+    .timeline::before {
+        left: 60px;
+    }
+    .timeline li .timeline-panel{
+        width: calc(110% - 150px);
+        float: right;
+    }
+    .timeline li .timeline-panel::before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+
+    .timeline li .timeline-panel::after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -13px;
+        right: auto;
+    }
+
+    #photo .img-fluid {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 576px) {
+    #photo .img-fluid {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
