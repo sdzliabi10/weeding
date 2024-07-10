@@ -23,6 +23,17 @@
     --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
 
+/* General CSS to prevent overflow */
+html, body {
+    overflow-x: hidden;
+}
+
+/* Ensure all sections are responsive */
+section {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-size: 1.2rem;
     min-height: 4000px;
@@ -40,10 +51,15 @@ color: white;
 position: fixed;
 width: 100%;
 z-index: 2999;
+box-sizing: border-box;
+}
+
+#awhome .container {
+    max-width: 100%; 
 }
 
 h4 {
-    font-size: 4.5rem;
+    font-size: 3rem;
     font-family: 'Sacramento';
     color: var(--pink);
 }
@@ -79,6 +95,7 @@ h5 {
     background-origin: border-box;
     background-clip: content-box, border-box;
     margin-top: 3rem;
+    max-width: 100%;
 }
 
 #overlayButton {
@@ -506,5 +523,24 @@ footer {
     #photo .img-fluid {
         width: 80%;
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    h4 {
+        font-size: 3rem; 
+    }
+    
+    h1 {
+        font-size: 2rem; 
+    }
+
+    p, h5 {
+        font-size: 1rem;
+    }
+
+    .btn {
+        width: 8rem; 
+        height: 2.5rem;
     }
 }
