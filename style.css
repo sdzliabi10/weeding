@@ -24,9 +24,9 @@
 }
 
 /* General CSS to prevent overflow */
-/* html, body {
+html, body {
     overflow-x: hidden;
-} */
+}
 
 body {
     font-size: 1.2rem;
