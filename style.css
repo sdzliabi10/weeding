@@ -24,9 +24,9 @@
 }
 
 /* General CSS to prevent overflow */
-html, body {
+/* html, body {
     overflow-x: hidden;
-}
+} */
 
 body {
     font-size: 1.2rem;
@@ -532,7 +532,7 @@ footer {
     }
 
     .btn {
-        width: 8rem; 
-        height: 2.5rem;
+        width: 10rem; 
+        height: 3rem;
     }
 }
