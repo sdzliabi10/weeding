@@ -25,6 +25,7 @@
 
 /* General CSS to prevent overflow */
 html, body {
+    max-width: 100%;
     overflow-x: hidden;
 }
 
