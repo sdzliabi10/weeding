@@ -24,13 +24,14 @@
 }
 
 /* General CSS to prevent overflow */
-/* html, body {
+html, body {
     overflow-x: hidden;
-} */
+} 
 
 body {
     font-size: 1.2rem;
     max-width: 100%;
+    position: relative;
     /* line-height: 1.5;
     color: #212529;
     text-align: left;
