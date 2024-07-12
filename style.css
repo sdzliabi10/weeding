@@ -24,22 +24,20 @@
 }
 
 /* General CSS to prevent overflow */
-/* html, body {
-    max-width: 100%;
+html, body {
     overflow-x: hidden;
-} */
+}
 
 body {
     font-size: 1.2rem;
     max-width: 100%;
-    min-height: 4000px;
-    overflow-x: hidden;
     /* line-height: 1.5;
     color: #212529;
     text-align: left;
     background-color: #fff; */
 }
-#awhome {
+
+/* #awhome {
 background-size: cover;
 background-position: center;
 height: 100%;
@@ -48,7 +46,21 @@ color: white;
 position: fixed;
 width: 100%;
 z-index: 2999;
+} */
+
+#awhome {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    z-index: 2999;
 }
+
 
 #awhome .container {
     max-width: 100%; 
@@ -335,9 +347,15 @@ div {
     font-family: 'Sacramento';
 }
 
-#photo .img-fluid {
+/* #photo .img-fluid {
     width: 100%;
     height: auto;
+} */
+
+#photo .img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
 
 #photo {
