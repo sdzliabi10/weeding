@@ -359,7 +359,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init({
-        once: true,
+        once: false,
       });
     </script>
 
@@ -404,32 +404,32 @@
 </script>
 
 <!-- navbar -->
-<script>
- window.onscroll = function() { stickyNavbar() };
+//<<script>
+// <!--  window.onscroll = function() { stickyNavbar() };
 
-var navbar = document.querySelector('.navbar');
+// var navbar = document.querySelector('.navbar');
 
-function stickyNavbar() {
-    if (window.pageYOffset >= navbar.offsetTop) {
-        navbar.classList.add('fixed-top');
-    } else {
-        navbar.classList.remove('fixed-top');
-    }
-}
+// function stickyNavbar() {
+//     if (window.pageYOffset >= navbar.offsetTop) {
+//         navbar.classList.add('fixed-top');
+//     } else {
+//         navbar.classList.remove('fixed-top');
+//     }
+// } 
 
 // klik diluar elemen navbar
-document.addEventListener('click', function(event) {
-    var isClickInside = navbar.contains(event.target);
+// <!-- document.addEventListener('click', function(event) {
+//     var isClickInside = navbar.contains(event.target);
 
-    if (!isClickInside) {
-        var navbarCollapse = document.querySelector('.navbar-collapse');
-        if (navbarCollapse.classList.contains('show')) {
-            navbarCollapse.classList.remove('show');
-        }
-    }
-});
+//     if (!isClickInside) {
+//         var navbarCollapse = document.querySelector('.navbar-collapse');
+//         if (navbarCollapse.classList.contains('show')) {
+//             navbarCollapse.classList.remove('show');
+//         }
+//     }
+// });
 
-</script>
+// </script> -->
 
 <script>
    const rootElement = document.querySelector(":root");
